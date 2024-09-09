@@ -12,4 +12,6 @@ int main (){
     area = (base * alt) / 2;
 
     printf ("A area do triangulo e %.2f", area);
+
+    return 0;
 }
