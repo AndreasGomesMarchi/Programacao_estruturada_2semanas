@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     float tl, as, ef, mp;
@@ -18,19 +19,20 @@ int main(){
 
     if (mp <= 4.99)
     {
-        printf("Nota: E");
+        printf("Nota: E\n");
     }else if (mp <= 5.99)
     {
-        printf("Nota: D");
+        printf("Nota: D\n");
     }else if (mp <= 6.99)
     {
-        printf("Nota: C");
+        printf("Nota: C\n");
     }else if (mp <= 7.99)
     {
-        printf("Nota: B");
+        printf("Nota: B\n");
     }else {
-        printf("Nota: A");
+        printf("Nota: A\n");
     }
-    
+
+    system("pause");
     return 0;
 }
