@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     float n1, n2;
@@ -17,6 +18,7 @@ int main(){
     }else {
         printf("Os dois numeros sao iguais!");
     }
-    
+
+    system("pause");
     return 0;
 }
