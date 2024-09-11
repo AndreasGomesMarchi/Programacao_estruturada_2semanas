@@ -21,4 +21,4 @@ int main(){
     }
     
     return 0;
-}
+} //Esse algoritmo possivelmente possui um bug que eu nao conseguir encontra, entao fica aqui o comentario para olhar mais tarde.
